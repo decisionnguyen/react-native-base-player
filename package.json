@@ -12,8 +12,8 @@
   "main": "./src/main.tsx",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grovertb/react-native-giraffeplayer2.git",
-    "baseUrl": "https://github.com/grovertb/react-native-giraffeplayer2"
+    "url": "git@github.com:decisionnguyen/react-native-base-player.git",
+    "baseUrl": "https://github.com/decisionnguyen/react-native-base-player"
   },
   "dependencies": {
     "react": "16.13.1",
