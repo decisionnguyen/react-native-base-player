@@ -6,16 +6,20 @@ import {VideoAndroid} from "@/VideoAndroid";
 interface Props {
     url: string,
     title: string,
-    onClose: () => void
+    onClose: () => void,
+    visible: boolean
 }
 
-const App = ({url, title, onClose}: Props) => {
+const Main = ({url, title, onClose, visible}: Props) => {
     const onCloseCB = useCallback(() => {
         if (onClose) {
             onClose()
         }
     }, [onClose]);
 
+    if (!visible) {
+        return null
+    }
 
     return (
         Platform.OS === 'ios' ? <VideoIos url={url} title={title} onClose={onClose}/> :
@@ -23,4 +27,4 @@ const App = ({url, title, onClose}: Props) => {
     )
 };
 
-export default App;
+export default Main;

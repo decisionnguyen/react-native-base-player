@@ -9,7 +9,7 @@
     "test": "jest",
     "lint": "eslint ."
   },
-  "main": "index.js",
+  "main": "./src/main.tsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grovertb/react-native-giraffeplayer2.git",
