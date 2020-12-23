@@ -1,7 +1,7 @@
 import React, {useCallback, useState} from 'react';
 import {Platform} from "react-native";
-import {VideoIos} from "@/VideoIos";
-import {VideoAndroid} from "@/VideoAndroid";
+import {VideoIos} from "./VideoIos";
+import {VideoAndroid} from "./VideoAndroid";
 
 interface Props {
     url: string,
