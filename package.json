@@ -15,6 +15,13 @@
     "url": "git@github.com:decisionnguyen/react-native-base-player.git",
     "baseUrl": "https://github.com/decisionnguyen/react-native-base-player"
   },
+  "Dependencies": {
+    "react-native-giraffeplayer2": "https://github.com/decisionnguyen/react-native-player",
+    "react-native-ivideo": "^2.0.13",
+    "react-native-orientation": "^3.1.3",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-video": "^5.1.0-alpha8"
+  },
   "peerDependencies": {
     "react-native-giraffeplayer2": "https://github.com/decisionnguyen/react-native-player",
     "react-native-ivideo": "^2.0.13",
