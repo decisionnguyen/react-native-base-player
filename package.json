@@ -1,7 +1,7 @@
 {
   "name": "react-native-base-player",
   "title": "react-native-base-player",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
